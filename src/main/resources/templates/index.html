@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>AIOps Banking Platform</title>
+</head>
+
+<body>
+
+<h1>AIOps Banking Platform</h1>
+
+<hr>
+
+<table border="1">
+
+<tr>
+<td>Application</td>
+<td th:text="${application}"></td>
+</tr>
+
+<tr>
+<td>Environment</td>
+<td th:text="${environment}"></td>
+</tr>
+
+<tr>
+<td>Server</td>
+<td th:text="${server}"></td>
+</tr>
+
+<tr>
+<td>Java</td>
+<td th:text="${javaVersion}"></td>
+</tr>
+
+<tr>
+<td>Spring</td>
+<td th:text="${springVersion}"></td>
+</tr>
+
+<tr>
+<td>Status</td>
+<td th:text="${status}"></td>
+</tr>
+
+</table>
+
+<hr>
+
+<h2>Modules</h2>
+
+<ul>
+
+<li>Customer Management</li>
+
+<li>Account Management</li>
+
+<li>Payments</li>
+
+<li>Monitoring</li>
+
+<li>Administration</li>
+
+</ul>
+
+</body>
+
+</html>
