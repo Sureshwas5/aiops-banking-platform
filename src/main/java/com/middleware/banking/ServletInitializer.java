@@ -1,4 +1,4 @@
-package com.middleware.banking_demo;
+package com.middleware.banking;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
