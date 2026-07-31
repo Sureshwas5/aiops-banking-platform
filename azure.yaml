@@ -1,0 +1,7 @@
+name: banking-demo
+services:
+  web:
+    project: .
+    language: java
+    host: appservice
+    dist: target
